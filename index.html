@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DulceRiSo</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container-menu">
+        <div class="logo">
+          <p class="logo-txt">DulceRiSo</p>
+          <input type="checkbox" id="menu" />
+          <label for="menu">
+            <img src="icons-menu/menu.png" alt="menu-icon" />
+          </label>
+        </div>
+        <div id="nav">
+          <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Postres</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Galería</a>
+            <a href="#">Contácto</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="section-inicio">
+      <div class="inicio-titulo">
+        <h1>Compra nuestros postres</h1>
+      </div>
+
+      <button>Aquí</button>
+    </section>
+
+    <section id="section-postres">
+      <div class="container-postres">
+        <div class="postres-titulo">
+          <h1>Nuestras delicias</h1>
+        </div>
+        <div class="postres-muestra">
+          <div class="postre-1">
+            <h2>Postre de fresa</h2>
+          </div>
+          <div class="postre-2">
+            <h2>Postre de platano</h2>
+          </div>
+          <div class="postre-3">
+            <h2>Postre de mango</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-nosotros">
+      <div class="nosotros-titulo">
+        <h1>¿Quiénes somos?</h1>
+      </div>
+      <div class="container-nosotros">
+        <div class="nosotros-txt">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+            vero quae optio, quo quos odit exercitationem magnam nihil
+            voluptatum aperiam ut possimus necessitatibus, nobis repellendus,
+            nisi totam alias ex non.
+          </p>
+
+          <img src="img-section-nosotros/nosotros-img.jpeg" alt="" />
+
+        </div>
+      </div>
+    </section>
+
+    <section id="section-contacto">
+      <div class="contacto-titulo">
+      <h1>Contáctanos</h1>
+      </div>
+      <div class="container-form">
+        <div class="seccion-contacto">
+          <h3>Mándanos un mensaje</h3>
+          <form action="">
+            <p>
+              <label for="nombre">Nombre completo</label>
+              <input type="text" name="nombre" id="nombre" />
+            </p>
+            <p>
+              <label for="email">EMail</label>
+              <input type="text" name="email" id="email" />
+            </p>
+            <p>
+              <label for="telefono">Teléfono</label>
+              <input type="tel" name="telefono" id="telefono" />
+            </p>
+            <p>
+              <label for="asunto">Asunto</label>
+              <input type="text" name="asunto" id="asunto" />
+            </p>
+            <p>
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="3"
+              ></textarea>
+            </p>
+            <p>
+              <button type="submit">Enviar</button>
+            </p>
+          </form>
+        </div>
+
+        <div class="contacto-info">
+          <h3>Más información</h3>
+          <ul>
+            <li>
+              <img src="icons-section-contacto/icon-direccion.png" alt="ubicacion-icon" />
+              <h5>Tinguiña</h5>
+            </li>
+
+            <li>
+              <img src="icons-section-contacto/icon-telefono.png" alt="telefono-icon" /> 
+              <h5>+51 903 019 613</h5>
+            </li>
+
+            <li>
+              <img src="icons-section-contacto/icon-mail.png" alt="telefono-icon" />
+              <h5>dulceriso@gmail.com</h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <div class="container-footer">
+            <p>&copy; DulceRiSo 2024</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
